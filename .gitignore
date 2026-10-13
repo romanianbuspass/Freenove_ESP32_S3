@@ -1,0 +1,45 @@
+# ---- ESP-IDF / Arduino / PlatformIO ----
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+managed_components/
+sdkconfig.old
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# Compiled firmware / objects
+*.bin
+*.elf
+*.o
+*.a
+*.map
+*.hex
+*.uf2
+
+# Vendor-redistributable blobs (obtain from Freenove — see README)
+*.zip
+*.exe
+*.pdf
+*.mp3
+
+# Network captures / local credentials
+*.pcapng
+*.pcap
+.env
+wifi.cfg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
